@@ -1,18 +1,14 @@
-'use strict'
-let arr=[[2,4,6,8], 5]
+'use strict';
 
-function insertShiftArray(test){
-   
-      let sh=[];
-    
-      for(let i=0; i<arr[0].length; i++){
-     if(arr[0][i]<arr[0][i+1] && arr[0][i]>arr[1]){
-    
-      sh.push(arr[1])
-    }
-    sh.push(arr[0][i])
+function insertShiftArray(arr, val) {
+
+    if (arr.length % 2 == 0) {
+        let insertAt = (arr.length / 2) ;
+        arr.splice(insertAt, 0, val);
+      }   
+      else {
+        let insertAt = (((arr.length) -1) / 2) + 1 ;
+        arr.splice(insertAt, 0, val);
       }
-      return sh;
-
+       return arr
 }
-insertShiftArray(arr)
