@@ -1,13 +1,13 @@
-'use strict'
 
-let arr=[1, 2, 3, 4, 5, 6];
+'use strict';
 
-function reverseArray (ar){
-    let reserved=[]
-for( var i=ar.length; i>0; i--){
-reserved.push(ar[i])
-};
-return reserved;
-}
+function arrayReverse(arr) {
+    let reversedArr =[];
+    let len = arr.length - 1;
+    arr.forEach((num, idx) => {
+        reversedArr.push(arr[len-idx]);
+    })
+    return reversedArr
+} 
 
 reverseArray(arr)
