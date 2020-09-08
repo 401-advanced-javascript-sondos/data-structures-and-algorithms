@@ -8,4 +8,4 @@
 **I went with the approach of writting an example with two sample arrays, one that is even and one that is odd, and then I tried to find the value of the middle index in terms of the array length and a factor of (2), and came up with a formula for each array (the even and the odd), then I searched for how to insert an element at a given index and used `slice` for that.**
 
 ## Solution
-![whiteboard](../assets/arrayShift.JPG)
+![whiteboard](assets/arrayShift.JPG)
