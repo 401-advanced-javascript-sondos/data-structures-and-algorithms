@@ -8,4 +8,5 @@ I went with the approach of writting an example with a sample array and its reve
 
 
 ## Solution
-![whiteboard](./assets/arrayReverse.jpg)
+
+![whiteboard](./assets/arrayReverse.jpg) 
