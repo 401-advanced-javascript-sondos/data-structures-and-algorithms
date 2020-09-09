@@ -12,3 +12,5 @@ function insertShiftArray(arr, val) {
       }
        return arr
 }
+insertShiftArray([4, 8, 15, 23, 42],16)
+module.exports = insertShiftArray;
