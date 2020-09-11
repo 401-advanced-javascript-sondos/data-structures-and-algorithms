@@ -9,4 +9,4 @@
 
 ## Solution
 
-![whiteboard](assets/arrayShift.JPG)
+![whiteboard](../../assets/arrayShift.JPG)
