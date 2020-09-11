@@ -6,3 +6,6 @@
 
 ## Approach & Efficiency
 **I started by searching and reading about binary search and followed along with a worked example, and then I created my own code following step by step with worked example to make sure I understand it.**
+
+## whiteBoard :
+![img](assets/binary-uml.jpg)
