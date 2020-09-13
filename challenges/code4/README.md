@@ -2,10 +2,15 @@
 <!-- Short summary or background information -->
 
 ## Challenge
-**Create a function that takes in a sorted array and a search key as an argument, and return the index of the array’s element that is equal to the search key, or -1 if the element does not exist.** 
+**Create a function that takes in a sorted array and sum the variables in each index** 
 
 ## Approach & Efficiency
-**I started by searching and reading about binary search and followed along with a worked example, and then I created my own code following step by step with worked example to make sure I understand it.**
+**I loop over the array and use insted loop to take the sumation to each inside each index of the outer array**
+
+## Big (O):
+space: O(n)
+time: O(n)^2
+
 
 ## Solution
-![whiteboard](./assets/binary-uml.jpg)
+![whiteboard](../../assets/sum.jpg)
