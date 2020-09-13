@@ -28,6 +28,7 @@ describe('test the link list', () => {
         expect(list.head.next).not.toBeNull();
         expect(list.head.next.value).toEqual(value2);
         expect(list.head.next.next).toBeNull();
+        
 
 
     })
