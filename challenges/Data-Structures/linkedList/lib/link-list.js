@@ -50,9 +50,6 @@ class Link {
     return str;
   }
 
-  insertBefore(value, newVal){
-        
-  }
 
 
 }
