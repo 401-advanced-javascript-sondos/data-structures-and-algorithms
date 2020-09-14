@@ -38,6 +38,7 @@ describe('test the link list', () => {
 
     let newlist=new Link();
     expect(newlist.head).toBeNull();
+    expect( newlist.insertBefore('test 9','test 5')).toEqual('there is no list');
 
     newlist.append('test 3');
     expect(newlist.head).toEqual({value:'test 3',next:null});
@@ -46,17 +47,22 @@ describe('test the link list', () => {
     newlist.insertBefore('test 3','test 2');
     expect(newlist.head.value).toEqual('test 2');
     expect(newlist.head).toEqual({value:'test 2',next:{value:'test 3',next:null}});
- //  expect(newlist.head.next.value).toBe('test 3')
+    expect(newlist.head.next.value).toBe('test 3');
+    expect(newlist.head.next.next).toBeNull();
     
-    //exption
-    newlist.insertBefore('test 4','test 5');
-    expect( newlist.insertBefore('test 4','test 5')).toEqual('Exception');
-
+ 
     // at mid
     newlist.append('test 4');
+    expect(newlist.head.next.next.value).toBe('test 4');
     newlist.insertBefore('test 4','test 5');
-   // expect( newlist.insertBefore('test 4','test 5')).toEqual({value:'test 2',next:{value:'test 3',next:{value:'test 5',next:{value:'test 4',next:null}}}});   
-  // expect(newlist.head.next.next)
+    // expect( newlist.insertBefore('test 4','test 5')).toEqual({value:'test 2',next:{value:'test 3',next:{value:'test 5',next:{value:'test 4',next:null}}}});   
+    expect(newlist.head.next.next.value).toBe('test 5');
+    expect(newlist.head.next.next.next.value).toBe('test 4');
+    expect(newlist.head.next.next.next.next).toBeNull();
+ 
+    //exption
+    newlist.insertBefore('test 7','test 5');
+    expect( newlist.insertBefore('test 7','test 5')).toEqual('Exception');
 
 
   });
@@ -65,38 +71,34 @@ describe('test the link list', () => {
   
   it('test the insertAfter()', () => {
 
-    let newlist=new Link();
-    expect(newlist.head).toBeNull();
+    let listafter=new Link();
+    expect(listafter.head).toBeNull();
+    expect( listafter.insertBefore('test 9','test 5')).toEqual('there is no list');
 
-    newlist.append('test 3');
-    expect(newlist.head).toEqual({value:'test 3',next:null});
+    listafter.append('test 3');
+    expect(listafter.head).toEqual({value:'test 3',next:null});
 
 
     //at first
-    newlist.insertAfter('test 3','test 2');
-    expect(newlist.head.value).toEqual('test 3');
-    expect(newlist.head).toEqual({value:'test 3',next:{value:'test 2',next:null}});
-    // {"next": null, "value": "test 2"}
-
-
-    //exption
-    newlist.insertBefore('test 4','test 5');
-    expect( newlist.insertBefore('test 4','test 5')).toEqual('Exception');
-
+    listafter.insertAfter('test 3','test 2');
+    expect(listafter.head.value).toEqual('test 3');
+    expect(listafter.head).toEqual({value:'test 3',next:{value:'test 2',next:null}});
 
     //at mid
-    newlist.append('test 4');
-    newlist.insertBefore('test 2','test 5');
-    expect( newlist.head).toEqual({value:'test 3',next:{value:'test 2',next:{value:'test 5',next:{value:'test 4',next:null}}}});   
- 
+    listafter.append('test 4');
+    expect(listafter.head.next.next.value).toBe('test 4');
+    listafter.insertAfter('test 2','test 5');
+    expect(listafter.head.next.next.value).toBe('test 5');
+    expect(listafter.head.next.next.next.value).toBe('test 4');
+    expect( listafter.head).toEqual({value:'test 3',next:{value:'test 2',next:{value:'test 5',next:{value:'test 4',next:null}}}});   
+
+    // //exption
+    listafter.insertBefore('test 9','test 5');
+    expect( listafter.insertBefore('test 9','test 5')).toEqual('Exception');
+
 
 
   });
-
-
-
-
-
 
 });
 
