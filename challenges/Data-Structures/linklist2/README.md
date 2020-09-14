@@ -17,4 +17,8 @@ i used loops because i need to loop across all the elements to change the array
 Big O = n
 
 
-## uml:
+## board:
+After
+![img](../../../assets/insertAfter.png)
+Befor
+![img](../../../assets/insertBefor.png)

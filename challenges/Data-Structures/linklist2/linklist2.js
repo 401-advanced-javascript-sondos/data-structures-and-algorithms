@@ -4,86 +4,78 @@ const Node = require('./node.js');
 
 class Link {
 
-    constructor() {
-        this.head = null;
+  constructor() {
+    this.head = null;
+  }
+
+  append(value) {
+    let node = new Node(value);
+
+    if (this.head === null) {
+      this.head = node;
+      return this;
     }
 
-    append(value) {
-        let node = new Node(value);
+    let current = this.head;
+    // current.next===null;
+    while (current.next) {
+      current = current.next;
+    }
+    current.next = node;
+    return this;
 
-        if (this.head === null) {
-            this.head = node;
-            return this;
-        }
+  }
 
-        let current = this.head;
-        // current.next===null;
-        while (current.next) {
-            current = current.next;
-        }
+  insertBefore(value, newVal) {
+
+    if(!this.head)
+      return 'there is no list' ;
+        
+    let node = new Node(newVal);
+    if (this.head.value === value) {
+      node.next = this.head,
+      this.head = node;
+      return;
+    }
+
+    let current = this.head;
+    while (current.next) {
+      if (current.next.value == value) {
+        node.next = current.next;
         current.next = node;
         return this;
-
+      }
+      current = current.next;
     }
+    current.next = node;
+    return 'Exception';
 
-    insertBefore(value, newVal) {
+  }
 
-        if(!this.head)
-        return 'Exception';
 
-        let node = new Node(newVal);
+  insertAfter(value, newVal) {
 
-        if (this.head.value === value) {
-            this.head.next = this.head,
-            this.head = node;
-            return this;
-        }
+    if (!this.head)
+      return 'there is no list' ;
 
-        let current = this.head;
-        // current.next===null;
-        while (current.next) {
-            if(current.value== value){
-                node.next=current;
-                current.inxt=node;
-                break;
-            }
-            current = current.next;
-        }
-        current.next = node;
-        // return this;
-        return 'Exception';
+    let node = new Node(newVal);
+    let current = this.head;
 
+    while (current.next) {
+      if (current.value == value) {
+        node.next=current.next;
+        current.next=node;
+
+        return this;
+      }
+      current = current.next;
     }
+    current.next = node;
+    // return this;
+    return 'Exception';
 
 
-    insertAfter(value, newVal){
-        if(!this.head)
-        return 'Exception';
-
-        let node=new Node(newVal);
-
-        // if (this.head.value === value) {
-        //     this.head.next = node,
-            
-        //     return this;
-        // }
-        let current = this.head;
-
-        while (current.next) {
-            if(current.value== value){
-                current.next=node.next;
-                current.next=node;
-                
-                return this;
-            }
-            current = current.next;
-        }
-        current.next = node;
-        // return this;
-        return 'Exception';
-
-
-    }
+  }
 
 
 }
