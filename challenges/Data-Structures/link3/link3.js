@@ -34,7 +34,7 @@ class Link {
     let node = new Node(newVal);
     if (this.head.value === value) {
       node.next = this.head,
-      this.head = node;
+        this.head = node;
       return;
     }
 
@@ -105,9 +105,8 @@ class Link {
       number--;
     }
     return current.value;
-
-
   }
+
 
 
 }
