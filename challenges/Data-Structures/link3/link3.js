@@ -76,7 +76,16 @@ class Link {
 
   }
 
-
+  toString(){
+    let current=this.head;
+    let str='';
+    while(current){
+      str=str+`{ ${current.value} } -> `;
+      current=current.next;
+    }
+    str+='NULL';
+    return str;
+  }
 
 
   Kmethod(arg) {
