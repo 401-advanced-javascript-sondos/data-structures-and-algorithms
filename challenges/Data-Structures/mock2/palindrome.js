@@ -9,11 +9,14 @@ function palindrome(list) {
     let array = [];
 
     let current = list.head;
-
+    
+    let j=0;
     while (current) {
 
-        array.push(current.value);
+        // array.push(current.value);
+        array[j]=current.value;
         current = current.next;
+        j++;
     }
 
     console.log(array);
