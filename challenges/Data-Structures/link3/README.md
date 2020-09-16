@@ -13,6 +13,8 @@
   + kthFromEnd method
     - space --> O(1)
     - time --> O(n^2)
+   becuase there is two while loop each loop iterate over n items so it's O(n), 
+   and there is two loop O(n)*O(n)=O(n^2)
 
 
  ## board:

@@ -34,7 +34,7 @@ class Link {
     let node = new Node(newVal);
     if (this.head.value === value) {
       node.next = this.head,
-        this.head = node;
+      this.head = node;
       return;
     }
 
@@ -76,14 +76,14 @@ class Link {
 
   }
 
-  toString(){
-    let current=this.head;
-    let str='';
-    while(current){
-      str=str+`{ ${current.value} } -> `;
-      current=current.next;
+  toString() {
+    let current = this.head;
+    let str = '';
+    while (current) {
+      str = str + `{ ${current.value} } -> `;
+      current = current.next;
     }
-    str+='NULL';
+    str += 'NULL';
     return str;
   }
 
