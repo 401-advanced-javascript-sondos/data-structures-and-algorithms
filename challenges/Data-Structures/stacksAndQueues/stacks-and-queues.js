@@ -1,106 +1,106 @@
 'use strict';
 
 class Node {
-    constructor(value) {
-        this.value = value;
-        this.next = null;
-    }
+  constructor(value) {
+    this.value = value;
+    this.next = null;
+  }
 }
 
 class Stack {
 
-    constructor() {
-        this.top = null;
-        this.storge = 0;
-    };
+  constructor() {
+    this.top = null;
+    this.storge = 0;
+  }
 
-    isEmpty() {
-        return this.storge === 0;
-    };
+  isEmpty() {
+    return this.storge === 0;
+  }
 
 
-    push(value) {
+  push(value) {
 
-        let node = new Node(value);
-        node.next = this.top;
-        this.top = node;
-        this.storge++;
-        // return this.top.value;
+    let node = new Node(value);
+    node.next = this.top;
+    this.top = node;
+    this.storge++;
+    // return this.top.value;
 
-    };
+  }
 
-    pop() {
+  pop() {
 
-        if (this.isEmpty()) {
-            return 'the stack is empty';
-        }
+    if (this.isEmpty()) {
+      return 'the stack is empty';
+    }
 
-        let temp = this.top;
-        this.top = this.top.next;
-        this.storge--;
-        return temp.value;
+    let temp = this.top;
+    this.top = this.top.next;
+    this.storge--;
+    return temp.value;
 
-    };
+  }
 
-    peek() {
-        if (this.isEmpty()) {
-            return 'the stack is empty';
-        }
-        return this.top.value;
-    };
+  peek() {
+    if (this.isEmpty()) {
+      return 'the stack is empty';
+    }
+    return this.top.value;
+  }
 
-};
+}
 
 
 class Queue {
 
-    constructor() {
-        this.front = null;
-        this.rear = null;
-        this.storge = 0;
-    };
+  constructor() {
+    this.front = null;
+    this.rear = null;
+    this.storge = 0;
+  }
 
 
-    enqueue(value) {
-        let node = new Node(value);
+  enqueue(value) {
+    let node = new Node(value);
 
-        if (this.isEmpty()) {
-            this.front = node;
-            this.rear = this.front;
-            this.storge++;
-            return ;
-        }
+    if (this.isEmpty()) {
+      this.front = node;
+      this.rear = this.front;
+      this.storge++;
+      return ;
+    }
 
-        this.rear.next = node;
-        this.rear=this.rear.next;
-        this.storge++;
-        return ;
+    this.rear.next = node;
+    this.rear=this.rear.next;
+    this.storge++;
+    return ;
 
-    };
+  }
 
-    dequeue() {
+  dequeue() {
 
-        if (this.isEmpty()) {
-            return 'the Queue is empty';
-        }
+    if (this.isEmpty()) {
+      return 'the Queue is empty';
+    }
 
-        let temp = this.front;
-        this.front = this.front.next;
-        this.storge--;
-        return temp.value;
+    let temp = this.front;
+    this.front = this.front.next;
+    this.storge--;
+    return temp.value;
 
-    };
+  }
 
-    peek() {
-        if (this.isEmpty()) {
-            return 'the Queue is empty';
-        }
-        return this.front.value;
-    };
+  peek() {
+    if (this.isEmpty()) {
+      return 'the Queue is empty';
+    }
+    return this.front.value;
+  }
 
-    isEmpty() {
-        return this.storge === 0;
-    };
+  isEmpty() {
+    return this.storge === 0;
+  }
 
 
 }
@@ -108,4 +108,4 @@ class Queue {
 
 
 
-module.exports = { stack: Stack ,queue:Queue }
+module.exports = { stack: Stack ,queue:Queue };
