@@ -30,4 +30,4 @@
 <br><br>
 
 
-![img](../../../assets/)
+![img](../../../assets/stack&queue.png)
