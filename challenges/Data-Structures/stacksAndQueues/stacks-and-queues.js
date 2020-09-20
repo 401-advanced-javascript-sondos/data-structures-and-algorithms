@@ -108,4 +108,4 @@ class Queue {
 
 
 
-module.exports = { stack: Stack ,queue:Queue };
+module.exports = { stack: Stack ,queue:Queue , node:Node };
