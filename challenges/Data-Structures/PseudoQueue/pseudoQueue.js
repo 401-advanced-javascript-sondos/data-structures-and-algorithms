@@ -27,7 +27,7 @@ class PesudoQueue {
 
     let current = this.stack1.top;
     while (current) {
-      console.log(current);
+      // console.log(current);
       current = current.next;
 
       this.stack2.push(this.stack1.pop());
