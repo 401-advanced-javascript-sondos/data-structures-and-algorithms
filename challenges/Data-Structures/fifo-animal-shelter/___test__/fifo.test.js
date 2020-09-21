@@ -31,11 +31,11 @@ describe('Animal Shelter tests', () => {
     shelter.enqueue('ccat');
 
     expect(shelter.dequeue('lion')).toBe(null);
-    expect(shelter.animal[0].animalType).toBe('dog');
+    expect(shelter.animal[0].animalType).toBe('cat');
     expect(shelter.dequeue('cat')).toBe('cat');
     expect(shelter.animal[0].animalType).toBe('dog');
     expect(shelter.dequeue('dog')).toBe('dog');
-    expect(shelter.animal[0].animalType).toBe('cat');
+    expect(shelter.animal[0].animalType).toBe('dog');
     expect(shelter.dequeue('dog')).toBe('can not dequeue from null');
   });
 
