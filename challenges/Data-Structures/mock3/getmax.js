@@ -53,6 +53,7 @@ class Stack {
         return this.storage.length === 0;
     }
 
+    
     // max(){
     //     return this.maxSatck;
     // }
