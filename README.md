@@ -15,5 +15,10 @@ class-09    | [class9](challenges/Data-Structures/mock2) | ![img](assets/palind.
 class-10    | [class10](challenges/Data-Structures/stacksAndQueues) | ![img](assets/stack&queue.png)
 class-11    | [class11](challenges/Data-Structures/PseudoQueue) | ![img](assets/animal.png)
 class-12    | [class12](challenges/Data-Structures/fifo-animal-shelter) | ![img](assets/animal.png)
+class-13    | [class13](challenges/Data-Structures/multi-bracket-validation) | ![img](assets/animal.png)
+class-14    | [class14](challenges/Data-Structures/mock2) | ![img]()
+class-15    | [class15](challenges/Data-Structures/fifo-animal-shelter) | ![img](assets/bst.png)
+class-16    | [class16]() | ![img]()
+
 
 
