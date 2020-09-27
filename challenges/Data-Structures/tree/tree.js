@@ -96,7 +96,7 @@ class Tree {
         let _search = (node) => {
             if(node==null) return false;
 
-            console.log(node.value);
+            // console.log(node.value);
             if (node.value == val){
                 return true;
 

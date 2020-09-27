@@ -18,7 +18,7 @@ class-12    | [class12](challenges/Data-Structures/fifo-animal-shelter) | ![img]
 class-13    | [class13](challenges/Data-Structures/multi-bracket-validation) | ![img](assets/animal.png)
 class-14    | [class14](challenges/Data-Structures/mock2) | ![img]()
 class-15    | [class15](challenges/Data-Structures/fifo-animal-shelter) | ![img](assets/bst.png)
-class-16    | [class16]() | ![img]()
+class-16    | [class16](challenges/Data-Structures/maxtree) | ![img](assets/maxtree.jpg)
 
 
 
