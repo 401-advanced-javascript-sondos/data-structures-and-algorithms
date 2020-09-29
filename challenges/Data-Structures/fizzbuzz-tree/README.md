@@ -16,4 +16,4 @@ A tree data structure can be defined recursively as a collection of nodes (start
 
 <br><br>
 
-![img](../../assets/fizzBuzz.jpg)
+![img](../../../assets/fizzBuzz.jpg)
