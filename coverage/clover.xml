@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1601326971925" clover="3.2.0">
-  <project timestamp="1601326971926" name="All files">
-    <metrics statements="83" coveredstatements="46" conditionals="45" coveredconditionals="20" methods="17" coveredmethods="9" elements="145" coveredelements="75" complexity="0" loc="83" ncloc="83" packages="3" files="3" classes="3"/>
+<coverage generated="1601405047363" clover="3.2.0">
+  <project timestamp="1601405047363" name="All files">
+    <metrics statements="105" coveredstatements="65" conditionals="59" coveredconditionals="32" methods="20" coveredmethods="12" elements="184" coveredelements="109" complexity="0" loc="105" ncloc="105" packages="4" files="4" classes="4"/>
     <package name="breadth">
       <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="5" methods="2" coveredmethods="2"/>
       <file name="breadth.js" path="/mnt/c/Users/STUDENT/projects/data-structures-and-algorithms/challenges/Data-Structures/breadth/breadth.js">
@@ -20,6 +20,34 @@
         <line num="22" count="2" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
         <line num="29" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="fizzbuzz-tree">
+      <metrics statements="22" coveredstatements="19" conditionals="14" coveredconditionals="12" methods="3" coveredmethods="3"/>
+      <file name="fizz.js" path="/mnt/c/Users/STUDENT/projects/data-structures-and-algorithms/challenges/Data-Structures/fizzbuzz-tree/fizz.js">
+        <metrics statements="22" coveredstatements="19" conditionals="14" coveredconditionals="12" methods="3" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="18" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="30" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="39" count="4" type="cond" truecount="3" falsecount="1"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="46" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
       </file>
     </package>
     <package name="maxtree">
@@ -48,15 +76,15 @@
         <line num="6" count="5" type="stmt"/>
         <line num="7" count="5" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="21" count="5" type="stmt"/>
-        <line num="22" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="23" count="2" type="stmt"/>
-        <line num="24" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="25" count="2" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="28" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="10" type="stmt"/>
+        <line num="22" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
         <line num="34" count="0" type="stmt"/>
         <line num="35" count="0" type="stmt"/>
         <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
