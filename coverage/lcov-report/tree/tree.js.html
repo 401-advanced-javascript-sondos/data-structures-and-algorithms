@@ -190,16 +190,16 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">5x</span>
-<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -290,115 +290,115 @@
 <span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">'use strict';
 &nbsp;
 class Node {
-    constructor(value, left = null, right = null) {
-        this.value = value;
-        this.left = left;
-        this.right = right;
-    }
+  constructor(value, left = null, right = null) {
+    this.value = value;
+    this.left = left;
+    this.right = right;
+  }
 }
 &nbsp;
 &nbsp;
 class Tree {
-    constructor(root = null) {
-        this.root = root;
+  constructor(root = null) {
+    this.root = root;
+  }
+&nbsp;
+  //root left right
+  preorder() {
+    let output = [];
+    let _rec = (node) =&gt; {
+      output.push(node.value);
+      if (node.left)
+        _rec(node.left);
+      if (node.right)
+        _rec(node.right);
+    };
+    _rec(this.root);
+    return output;
+&nbsp;
+  }
+&nbsp;
+  //left root right
+<span class="fstat-no" title="function not covered" >  in</span>order() {
+    let output = <span class="cstat-no" title="statement not covered" >[];</span>
+    let _rec = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(n</span>ode) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >      if (node.left)</span>
+<span class="cstat-no" title="statement not covered" >        _rec(node.left);</span>
+<span class="cstat-no" title="statement not covered" >      output.push(node.value);</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >      if (node.right)</span>
+<span class="cstat-no" title="statement not covered" >        _rec(node.right);</span>
+    };
+<span class="cstat-no" title="statement not covered" >    _rec(this.root);</span>
+<span class="cstat-no" title="statement not covered" >    return output;</span>
+&nbsp;
+  }
+&nbsp;
+&nbsp;
+  //left right root 
+<span class="fstat-no" title="function not covered" >  po</span>storder() {
+    let output = <span class="cstat-no" title="statement not covered" >[];</span>
+    let _rec = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(n</span>ode) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >      if (node.left)</span>
+<span class="cstat-no" title="statement not covered" >        _rec(node.left);</span>
+<span class="cstat-no" title="statement not covered" >      if (node.right)</span>
+<span class="cstat-no" title="statement not covered" >        _rec(node.right);</span>
+<span class="cstat-no" title="statement not covered" >      output.push(node.value);</span>
+    };
+<span class="cstat-no" title="statement not covered" >    _rec(this.root);</span>
+<span class="cstat-no" title="statement not covered" >    return output;</span>
+&nbsp;
+  }
+&nbsp;
+&nbsp;
+  add(value) {
+    let newNode = new Node(value);
+    if (this.root === null) {
+      this.root = newNode;
+      return this.root;
+    }
+&nbsp;
+    let _add = (node) =&gt; {
+      if (node.value &gt; value) {
+        if (node.left) {
+          _add(node.left);
+&nbsp;
+        } else { node.left = newNode; }
+&nbsp;
+      } else {
+        if (node.right) {
+          _add(node.right);
+&nbsp;
+        } else { node.right = newNode; }
+      }
     };
 &nbsp;
-    //root left right
-    preorder() {
-        let output = [];
-        let _rec = (node) =&gt; {
-            output.push(node.value);
-            if (node.left)
-                _rec(node.left);
-            if (node.right)
-                _rec(node.right);
-        };
-        _rec(this.root);
-        return output;
+    _add(this.root);
+    return this.root;
+  }
 &nbsp;
+<span class="fstat-no" title="function not covered" >  co</span>ntains(val) {
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    if (this.root == val)</span>
+<span class="cstat-no" title="statement not covered" >      return true;</span>
+&nbsp;
+    let _search = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(n</span>ode) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >      if(node==null) <span class="cstat-no" title="statement not covered" >return false;</span></span>
+&nbsp;
+      // console.log(node.value);
+<span class="cstat-no" title="statement not covered" >      if (node.value == val){</span>
+<span class="cstat-no" title="statement not covered" >        return true;</span>
+&nbsp;
+      }else <span class="cstat-no" title="statement not covered" >if(node.value &gt; val){</span>
+<span class="cstat-no" title="statement not covered" >        return   _search(node.left);</span>
+&nbsp;
+      }else <span class="cstat-no" title="statement not covered" >if (node.value &lt; val)</span>
+<span class="cstat-no" title="statement not covered" >        return   _search(node.right);</span>
     };
+<span class="cstat-no" title="statement not covered" >    return (_search(this.root));</span>
+  }
 &nbsp;
-    //left root right
-<span class="fstat-no" title="function not covered" >    in</span>order() {
-        let output = <span class="cstat-no" title="statement not covered" >[];</span>
-        let _rec = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(n</span>ode) =&gt; {</span>
-<span class="cstat-no" title="statement not covered" >            if (node.left)</span>
-<span class="cstat-no" title="statement not covered" >                _rec(node.left);</span>
-<span class="cstat-no" title="statement not covered" >            output.push(node.value);</span>
-&nbsp;
-<span class="cstat-no" title="statement not covered" >            if (node.right)</span>
-<span class="cstat-no" title="statement not covered" >                _rec(node.right);</span>
-        }
-<span class="cstat-no" title="statement not covered" >        _rec(this.root);</span>
-<span class="cstat-no" title="statement not covered" >        return output;</span>
-&nbsp;
-    };
-&nbsp;
-&nbsp;
-    //left right root 
-<span class="fstat-no" title="function not covered" >    po</span>storder() {
-        let output = <span class="cstat-no" title="statement not covered" >[];</span>
-        let _rec = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(n</span>ode) =&gt; {</span>
-<span class="cstat-no" title="statement not covered" >            if (node.left)</span>
-<span class="cstat-no" title="statement not covered" >                _rec(node.left);</span>
-<span class="cstat-no" title="statement not covered" >            if (node.right)</span>
-<span class="cstat-no" title="statement not covered" >                _rec(node.right);</span>
-<span class="cstat-no" title="statement not covered" >            output.push(node.value);</span>
-        }
-<span class="cstat-no" title="statement not covered" >        _rec(this.root);</span>
-<span class="cstat-no" title="statement not covered" >        return output;</span>
-&nbsp;
-    };
-&nbsp;
-&nbsp;
-    add(value) {
-        let newNode = new Node(value);
-        if (this.root === null) {
-            this.root = newNode;
-            return this.root;
-        };
-&nbsp;
-        let _add = (node) =&gt; {
-            if (node.value &gt; value) {
-                if (node.left) {
-                    _add(node.left);
-&nbsp;
-                } else { node.left = newNode; }
-&nbsp;
-            } else {
-                if (node.right) {
-                    _add(node.right);
-&nbsp;
-                } else { node.right = newNode; };
-            };
-        };
-&nbsp;
-        _add(this.root);
-        return this.root;
-    };
-&nbsp;
-<span class="fstat-no" title="function not covered" >    co</span>ntains(val) {
-&nbsp;
-<span class="cstat-no" title="statement not covered" >        if (this.root == val)</span>
-<span class="cstat-no" title="statement not covered" >            return true;</span>
-&nbsp;
-        let _search = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(n</span>ode) =&gt; {</span>
-<span class="cstat-no" title="statement not covered" >            if(node==null) <span class="cstat-no" title="statement not covered" >return false;</span></span>
-&nbsp;
-            // console.log(node.value);
-<span class="cstat-no" title="statement not covered" >            if (node.value == val){</span>
-<span class="cstat-no" title="statement not covered" >                return true;</span>
-&nbsp;
-            }else <span class="cstat-no" title="statement not covered" >if(node.value &gt; val){</span>
-<span class="cstat-no" title="statement not covered" >             return   _search(node.left);</span>
-&nbsp;
-            }else <span class="cstat-no" title="statement not covered" >if (node.value &lt; val)</span>
-<span class="cstat-no" title="statement not covered" >             return   _search(node.right);</span>
-        }
-<span class="cstat-no" title="statement not covered" >        return (_search(this.root));</span>
-    };
-&nbsp;
-};
+}
 &nbsp;
 &nbsp;
 &nbsp;
@@ -409,7 +409,7 @@ module.exports = { Node: Node, Tree: Tree };</pre></td></tr></table></pre>
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
-                at Tue Sep 29 2020 00:02:51 GMT+0300 (Eastern European Summer Time)
+                at Tue Sep 29 2020 21:44:07 GMT+0300 (Eastern European Summer Time)
             </div>
         </div>
         <script src="../prettify.js"></script>

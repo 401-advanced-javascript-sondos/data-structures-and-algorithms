@@ -19,6 +19,10 @@ class-13    | [class13](challenges/Data-Structures/multi-bracket-validation) | !
 class-14    | [class14](challenges/Data-Structures/mock2) | ![img]()
 class-15    | [class15](challenges/Data-Structures/fifo-animal-shelter) | ![img](assets/bst.png)
 class-16    | [class16](challenges/Data-Structures/maxtree) | ![img](assets/maxtree.jpg)
+class-17    | [class17](challenges/Data-Structures/breadth) | ![img](assets/breadth.jpg)
+class-18    | [class18](challenges/Data-Structures/fizzbuzz-tree) | ![img](assets/fizzBuzz.jpg)
+class-19    | [class19]() | ![img]()
+class-20    | [class20]() | ![img]()
 
 
 
