@@ -48,7 +48,7 @@ and update the array.
 
 ![img](./assest/iteration1.jpg)
 
-![img](./assest./assest/iteration2.jpg)
+![img](./assest/iteration2.jpg)
 
 ![img](./assest/iterartion3.jpg)
 
