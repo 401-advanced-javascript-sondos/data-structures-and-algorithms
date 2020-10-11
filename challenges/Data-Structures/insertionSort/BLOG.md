@@ -40,7 +40,8 @@ and update the array.
 - ` j=1`
 - ` min= 8`
 
-![img]('challenges/Data-Structures/insertionSort/assest/iteration1.jpg')
+![img](./assest/iteration1.jpg)
+
 
 
 ## Iteration 2:
@@ -48,7 +49,7 @@ and update the array.
 - ` j=2`
 - ` min= 8`
 
-![img]('challenges/Data-Structures/insertionSort/assest/iteration2.jpg')
+![img](./assest./assest/iteration2.jpg)
 
 
 ## Iteration 3:
@@ -56,7 +57,7 @@ and update the array.
 - ` j=3`
 - ` min= 23`
 
-![img]('challenges/Data-Structures/insertionSort/assest/iterartion3.jpg')
+![img](./assest/iterartion3.jpg)
 
 
 ## Iteration 4:
@@ -64,7 +65,7 @@ and update the array.
 - ` j=4`
 - ` min= 42`
 
-![img]('challenges/Data-Structures/insertionSort/assest/iteration4.jpg')
+![img](./assest/iteration4.jpg)
 
 
 
