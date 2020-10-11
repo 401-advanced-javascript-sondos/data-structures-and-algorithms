@@ -50,6 +50,6 @@ and update the array.
 
 ![img]('../../assest/iteration2.jpg')
 
-![img]('./iterartion3.jpg')
+![img]('../iterartion3.jpg')
 
 ![img]('./assest/iteration4.jpg')
