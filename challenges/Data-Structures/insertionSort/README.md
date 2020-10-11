@@ -46,7 +46,7 @@ and update the array.
 
 ## board:
 
-![img]('challenges/Data-Structures/insertionSort/assest/iteration1.jpg')
+![img]('assest/iteration1.jpg')
 
 ![img]('challenges/Data-Structures/insertionSort/assest/iteration2.jpg')
 
