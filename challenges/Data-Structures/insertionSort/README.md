@@ -46,10 +46,10 @@ and update the array.
 
 ## board:
 
-![img](/assest/iteration1.jpg)
+![img](./assest/iteration1.jpg)
 
-![img](../../assest/iteration2.jpg)
+![img](./assest./assest/iteration2.jpg)
 
-![img](../iterartion3.jpg)
+![img](./assest/iterartion3.jpg)
 
 ![img](./assest/iteration4.jpg)
