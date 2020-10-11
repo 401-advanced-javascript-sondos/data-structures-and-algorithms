@@ -49,7 +49,7 @@ and update the array.
 - ` j=2`
 - ` min= 8`
 
-![img](./assest./assest/iteration2.jpg)
+![img](./assest/iteration2.jpg)
 
 
 ## Iteration 3:
