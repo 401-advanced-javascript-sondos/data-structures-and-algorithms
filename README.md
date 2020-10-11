@@ -21,8 +21,8 @@ class-15    | [class15](challenges/Data-Structures/fifo-animal-shelter) | ![img]
 class-16    | [class16](challenges/Data-Structures/maxtree) | ![img](assets/maxtree.jpg)
 class-17    | [class17](challenges/Data-Structures/breadth) | ![img](assets/breadth.jpg)
 class-18    | [class18](challenges/Data-Structures/fizzbuzz-tree) | ![img](assets/fizzBuzz.jpg)
-class-19    | [class19]() | ![img]()
-class-20    | [class20]() | ![img]()
+class-26    | [class26](challenges/Data-Structures/insertionSort/selectionSort.js) | ![img]()
+class-27    | [class27]() | ![img]()
 
 
 
