@@ -48,8 +48,8 @@ and update the array.
 
 ![img]('/assest/iteration1.jpg')
 
-![img]('challenges/Data-Structures/insertionSort/assest/iteration2.jpg')
+![img]('../../assest/iteration2.jpg')
 
-![img]('challenges/Data-Structures/insertionSort/assest/iterartion3.jpg')
+![img]('./iterartion3.jpg')
 
-![img]('challenges/Data-Structures/insertionSort/assest/iteration4.jpg')
+![img]('./assest/iteration4.jpg')
