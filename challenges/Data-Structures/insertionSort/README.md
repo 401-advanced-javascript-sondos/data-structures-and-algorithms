@@ -46,7 +46,7 @@ and update the array.
 
 ## board:
 
-![img]('/assest/iteration1.jpg')
+![img](/assest/iteration1.jpg)
 
 ![img]('../../assest/iteration2.jpg')
 
