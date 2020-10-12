@@ -1,8 +1,8 @@
 'use strict';
 
-const sort = require('./selectionSort');
+const sort = require('./merge');
 
-describe('Selection Sort', () => {
+describe('Merge Sort', () => {
 
   it('function output should be sotred array', () => {
     let arr = [8, 4, 23, 42, 16, 15];
