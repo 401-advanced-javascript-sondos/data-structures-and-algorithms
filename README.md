@@ -22,7 +22,7 @@ class-16    | [class16](challenges/Data-Structures/maxtree) | ![img](assets/maxt
 class-17    | [class17](challenges/Data-Structures/breadth) | ![img](assets/breadth.jpg)
 class-18    | [class18](challenges/Data-Structures/fizzbuzz-tree) | ![img](assets/fizzBuzz.jpg)
 class-26    | [class26](challenges/Data-Structures/insertionSort/selectionSort.js) | ![img]()
-class-27    | [class27]() | ![img]()
+class-27    | [class27](challenges/Data-Structures/mergesort/merge.js) | ![img]()
 
 
 
