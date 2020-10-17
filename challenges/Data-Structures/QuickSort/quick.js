@@ -1,35 +1,35 @@
 'use strict';
 
 function QuickSort(arr, left, right) {
-    if (left < right) {
-        let postion = Parition(arr, left, right);
-        QuickSort(arr, left, postion - 1);
-        QuickSort(arr, postion + 1, right);
-    }
-    return arr;
+  if (left < right) {
+    let postion = Parition(arr, left, right);
+    QuickSort(arr, left, postion - 1);
+    QuickSort(arr, postion + 1, right);
+  }
+  return arr;
 }
 
 function Parition(arr, left, right) {
 
-    let pivot = arr[right];
-    let low = left - 1;
-    for (let i = left; i < right; i++) {
-        if (arr[i] <= pivot) {
-            low++;
-            Swap(arr, i, low);
-        }
+  let pivot = arr[right];
+  let low = left - 1;
+  for (let i = left; i < right; i++) {
+    if (arr[i] <= pivot) {
+      low++;
+      Swap(arr, i, low);
     }
-    Swap(arr, right, low + 1);
+  }
+  Swap(arr, right, low + 1);
 
 
-    return low + 1;
+  return low + 1;
 }
 
 function Swap(arr, i, low) {
-    let temp;
-    temp = arr[i];
-    arr[i] = arr[low];
-    arr[low] = temp;
+  let temp;
+  temp = arr[i];
+  arr[i] = arr[low];
+  arr[low] = temp;
 }
 
 module.exports=QuickSort;
