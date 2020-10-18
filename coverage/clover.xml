@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1602942647950" clover="3.2.0">
-  <project timestamp="1602942647951" name="All files">
-    <metrics statements="83" coveredstatements="31" conditionals="26" coveredconditionals="8" methods="13" coveredmethods="9" elements="122" coveredelements="48" complexity="0" loc="83" ncloc="83" packages="3" files="3" classes="3"/>
+<coverage generated="1603041947770" clover="3.2.0">
+  <project timestamp="1603041947770" name="All files">
+    <metrics statements="96" coveredstatements="37" conditionals="28" coveredconditionals="6" methods="14" coveredmethods="9" elements="138" coveredelements="52" complexity="0" loc="96" ncloc="96" packages="4" files="4" classes="4"/>
     <package name="hashTable">
-      <metrics statements="17" coveredstatements="17" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6"/>
+      <metrics statements="17" coveredstatements="15" conditionals="6" coveredconditionals="3" methods="6" coveredmethods="5"/>
       <file name="hash.js" path="/mnt/c/Users/STUDENT/projects/data-structures-and-algorithms/challenges/Data-Structures/hashTable/hash.js">
-        <metrics statements="17" coveredstatements="17" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6"/>
+        <metrics statements="17" coveredstatements="15" conditionals="6" coveredconditionals="3" methods="6" coveredmethods="5"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="14" count="11" type="stmt"/>
-        <line num="15" count="11" type="stmt"/>
-        <line num="16" count="35" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
-        <line num="23" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="27" count="2" type="stmt"/>
-        <line num="28" count="2" type="stmt"/>
-        <line num="32" count="5" type="stmt"/>
-        <line num="33" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="38" count="2" type="stmt"/>
-        <line num="39" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="47" count="1" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="14" count="33" type="stmt"/>
+        <line num="15" count="33" type="stmt"/>
+        <line num="16" count="115" type="stmt"/>
+        <line num="21" count="15" type="stmt"/>
+        <line num="23" count="15" type="cond" truecount="1" falsecount="1"/>
+        <line num="24" count="15" type="stmt"/>
+        <line num="27" count="15" type="stmt"/>
+        <line num="28" count="15" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="38" count="18" type="stmt"/>
+        <line num="39" count="18" type="stmt"/>
+        <line num="40" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="48" count="1" type="stmt"/>
       </file>
     </package>
     <package name="link3">
-      <metrics statements="63" coveredstatements="11" conditionals="20" coveredconditionals="2" methods="6" coveredmethods="2"/>
+      <metrics statements="63" coveredstatements="7" conditionals="20" coveredconditionals="1" methods="6" coveredmethods="2"/>
       <file name="link3.js" path="/mnt/c/Users/STUDENT/projects/data-structures-and-algorithms/challenges/Data-Structures/link3/link3.js">
-        <metrics statements="63" coveredstatements="11" conditionals="20" coveredconditionals="2" methods="6" coveredmethods="2"/>
+        <metrics statements="63" coveredstatements="7" conditionals="20" coveredconditionals="1" methods="6" coveredmethods="2"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="12" count="2" type="stmt"/>
-        <line num="14" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
+        <line num="8" count="15" type="stmt"/>
+        <line num="12" count="15" type="stmt"/>
+        <line num="14" count="15" type="cond" truecount="1" falsecount="1"/>
+        <line num="15" count="15" type="stmt"/>
+        <line num="16" count="15" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
         <line num="31" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="32" count="0" type="stmt"/>
         <line num="34" count="0" type="stmt"/>
@@ -98,9 +98,28 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="node.js" path="/mnt/c/Users/STUDENT/projects/data-structures-and-algorithms/challenges/Data-Structures/linkedList/lib/node.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="6" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
+        <line num="6" count="15" type="stmt"/>
+        <line num="7" count="15" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="repetedWord">
+      <metrics statements="13" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="repeat.js" path="/mnt/c/Users/STUDENT/projects/data-structures-and-algorithms/challenges/Data-Structures/repetedWord/repeat.js">
+        <metrics statements="13" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="18" type="stmt"/>
+        <line num="13" count="18" type="stmt"/>
+        <line num="15" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="21" count="15" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
       </file>
     </package>
   </project>
