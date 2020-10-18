@@ -26,5 +26,5 @@ class-27    | [class27](challenges/Data-Structures/mergesort/merge.js) | ![img](
 
 class-28    | [class28](challenges/Data-Structures/QuickSort) | ![img](challenges/Data-Structures/QuickSort/uml.jpg)
 class-30    | [class30](challenges/Data-Structures/hashTable/hash.js) | ![img](assets/hash.png)
-class-31    | [class31]() | ![img]()
+class-31    | [class31](challenges/Data-Structures/repetedWord/repeat.js) | ![img](assets/repeatedword.png)
 

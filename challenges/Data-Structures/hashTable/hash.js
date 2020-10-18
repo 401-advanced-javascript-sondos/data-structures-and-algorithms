@@ -19,7 +19,7 @@ class HashTable {
 
   add(key, value) {
     let hashIndex = this.hash(key);
-    console.log('hashIndex: ', hashIndex);
+    // console.log('hashIndex: ', hashIndex);
     if (!this.entries[hashIndex]) {
       this.entries[hashIndex] = new LinkedList();
     }
@@ -36,6 +36,7 @@ class HashTable {
 
   contains(key) {
     let hashIndex = this.hash(key);
+    console.log('hashindex',hashIndex)
     return this.entries[hashIndex] ? true : false;
 
   }
