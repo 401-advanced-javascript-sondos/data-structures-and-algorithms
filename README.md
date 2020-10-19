@@ -23,8 +23,11 @@ class-17    | [class17](challenges/Data-Structures/breadth) | ![img](assets/brea
 class-18    | [class18](challenges/Data-Structures/fizzbuzz-tree) | ![img](assets/fizzBuzz.jpg)
 class-26    | [class26](challenges/Data-Structures/insertionSort/selectionSort.js) | ![img]()
 class-27    | [class27](challenges/Data-Structures/mergesort/merge.js) | ![img]()
-
 class-28    | [class28](challenges/Data-Structures/QuickSort) | ![img](challenges/Data-Structures/QuickSort/uml.jpg)
 class-30    | [class30](challenges/Data-Structures/hashTable/hash.js) | ![img](assets/hash.png)
 class-31    | [class31](challenges/Data-Structures/repetedWord/repeat.js) | ![img](assets/repeatedword.png)
+class-32    | [class32](challenges/Data-Structures/treeIntersection/treeIntersection.js) | ![img](assets/treeinter.png)
+class-33    | [class33]() | ![img]()
+class-34    | [class34]() | ![img]()
+class-35    | [class35]() | ![img]()
 
