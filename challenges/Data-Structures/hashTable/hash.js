@@ -36,7 +36,7 @@ class HashTable {
 
   contains(key) {
     let hashIndex = this.hash(key);
-    console.log('hashindex',hashIndex)
+    console.log('hashindex',hashIndex);
     return this.entries[hashIndex] ? true : false;
 
   }
