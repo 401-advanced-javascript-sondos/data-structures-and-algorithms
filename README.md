@@ -27,7 +27,7 @@ class-28    | [class28](challenges/Data-Structures/QuickSort) | ![img](challenge
 class-30    | [class30](challenges/Data-Structures/hashTable/hash.js) | ![img](assets/hash.png)
 class-31    | [class31](challenges/Data-Structures/repetedWord/repeat.js) | ![img](assets/repeatedword.png)
 class-32    | [class32](challenges/Data-Structures/treeIntersection/treeIntersection.js) | ![img](assets/treeinter.png)
-class-33    | [class33]() | ![img]()
+class-33    | [class33](challenges/Data-Structures/LeftJoin/leftjoin.js) | ![img](assets/leftjoin.png)
 class-34    | [class34]() | ![img]()
 class-35    | [class35]() | ![img]()
 

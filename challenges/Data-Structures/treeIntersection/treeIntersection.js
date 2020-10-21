@@ -1,32 +1,32 @@
 'use strict';
 
 class Node {
-    constructor(value, left = null, right = null) {
-        this.value = value;
-        this.left = left;
-        this.right = right;
-    }
+  constructor(value, left = null, right = null) {
+    this.value = value;
+    this.left = left;
+    this.right = right;
+  }
 }
 
 
 class Tree {
-    constructor(root = null) {
-        this.root = root;
-    }
+  constructor(root = null) {
+    this.root = root;
+  }
 
-    preorder() {
-        let output = [];
-        let _rec = (node) => {
-            output.push(node.value);
-            if (node.left)
-                _rec(node.left);
-            if (node.right)
-                _rec(node.right);
-        };
-        _rec(this.root);
-        return output;
-
+  preorder() {
+    let output = [];
+    let _rec = (node) => {
+      output.push(node.value);
+      if (node.left)
+        _rec(node.left);
+      if (node.right)
+        _rec(node.right);
     };
+    _rec(this.root);
+    return output;
+
+  }
 
 }
 
@@ -34,22 +34,22 @@ class Tree {
 
 function treeIntersection(tree1, tree2) {
 
-    if (!tree1.root && !tree2.root)
-        return 'Not true input';
+  if (!tree1.root && !tree2.root)
+    return 'Not true input';
 
-       let array1= tree1.preorder();
-       let array2=tree2.preorder();
-       let match=[];
+  let array1= tree1.preorder();
+  let array2=tree2.preorder();
+  let match=[];
 
-       array1.forEach(element => {
+  array1.forEach(element => {
 
-           array2.forEach(val=>{
-               if(element==val)
-               match.push(val);
-           });
+    array2.forEach(val=>{
+      if(element==val)
+        match.push(val);
+    });
 
-       });
-    return match;
+  });
+  return match;
 
 }
 
