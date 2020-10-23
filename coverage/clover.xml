@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1603278558960" clover="3.2.0">
-  <project timestamp="1603278558961" name="All files">
-    <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2" elements="12" coveredelements="12" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
-    <file name="leftjoin.js" path="/mnt/c/Users/STUDENT/projects/data-structures-and-algorithms/challenges/Data-Structures/LeftJoin/leftjoin.js">
-      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="12" count="1" type="stmt"/>
-      <line num="14" count="5" type="stmt"/>
-      <line num="15" count="5" type="cond" truecount="2" falsecount="0"/>
-      <line num="16" count="4" type="stmt"/>
-      <line num="18" count="1" type="stmt"/>
-      <line num="22" count="1" type="stmt"/>
-      <line num="25" count="1" type="stmt"/>
+<coverage generated="1603465921038" clover="3.2.0">
+  <project timestamp="1603465921038" name="All files">
+    <metrics statements="18" coveredstatements="18" conditionals="7" coveredconditionals="7" methods="8" coveredmethods="8" elements="33" coveredelements="33" complexity="0" loc="18" ncloc="18" packages="1" files="1" classes="1"/>
+    <file name="graph.js" path="/mnt/c/Users/STUDENT/projects/data-structures-and-algorithms/challenges/Data-Structures/graphs/graph.js">
+      <metrics statements="18" coveredstatements="18" conditionals="7" coveredconditionals="7" methods="8" coveredmethods="8"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="30" count="3" type="stmt"/>
+      <line num="31" count="3" type="stmt"/>
+      <line num="36" count="2" type="cond" truecount="4" falsecount="0"/>
+      <line num="38" count="1" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
+      <line num="41" count="1" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
+      <line num="49" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="51" count="1" type="stmt"/>
+      <line num="53" count="1" type="stmt"/>
+      <line num="61" count="1" type="stmt"/>
+      <line num="72" count="1" type="stmt"/>
+      <line num="78" count="1" type="stmt"/>
+      <line num="84" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

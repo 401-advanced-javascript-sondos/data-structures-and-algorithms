@@ -26,8 +26,11 @@ class-27    | [class27](challenges/Data-Structures/mergesort/merge.js) | ![img](
 class-28    | [class28](challenges/Data-Structures/QuickSort) | ![img](challenges/Data-Structures/QuickSort/uml.jpg)
 class-30    | [class30](challenges/Data-Structures/hashTable/hash.js) | ![img](assets/hash.png)
 class-31    | [class31](challenges/Data-Structures/repetedWord/repeat.js) | ![img](assets/repeatedword.png)
-class-32    | [class32](challenges/Data-Structures/treeIntersection/treeIntersection.js) | ![img](assets/treeinter.png)
+class-32    | [class32](challenges/Data-Structures/treeIntersection/treeIntersection.js) | ![img](assets/treeIntersection.png)
 class-33    | [class33](challenges/Data-Structures/LeftJoin/leftjoin.js) | ![img](assets/leftjoin.png)
-class-34    | [class34]() | ![img]()
-class-35    | [class35]() | ![img]()
+class-35    | [class35](challenges/Data-Structures/graphs/graph.js) | ![img](assets/graph.jpg)
+class-36    | [class36]() | ![img]()
+class-37    | [class37]() | ![img]()
+class-38    | [class38]() | ![img]()
+
 
