@@ -29,7 +29,7 @@ class-31    | [class31](challenges/Data-Structures/repetedWord/repeat.js) | ![im
 class-32    | [class32](challenges/Data-Structures/treeIntersection/treeIntersection.js) | ![img](assets/treeIntersection.png)
 class-33    | [class33](challenges/Data-Structures/LeftJoin/leftjoin.js) | ![img](assets/leftjoin.png)
 class-35    | [class35](challenges/Data-Structures/graphs/graph.js) | ![img](assets/graph.jpg)
-class-36    | [class36]() | ![img]()
+class-36    | [class36](challenges/Data-Structures/graphbft/bft.js) | ![img](assets/bfsgraph.jpg)
 class-37    | [class37]() | ![img]()
 class-38    | [class38]() | ![img]()
 

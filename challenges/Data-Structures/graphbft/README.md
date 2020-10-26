@@ -14,4 +14,4 @@ using ES6 classes, definning a class for Vertex, a class for edges, and a class 
 
 ## board:
 
-![img](../../../assets/graph.jpg)
+![img](../../../assets/bfsgraph.jpg)
